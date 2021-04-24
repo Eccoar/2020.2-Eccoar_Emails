@@ -19,6 +19,7 @@ export class NodeMailerProvider implements MailerProvider {
 
 	async sendMail(email: EmailTemplate): Promise<void> {
 		console.log('>>>>> SEND EMAIL');
+		console.log("TESTE");
 		return new Promise((resolve, reject) => {
 			this.transporter.sendMail(email, (err, response) => {
 				if (err) {
