@@ -1,5 +1,8 @@
 # 2020.2 Eccoar Email Service
 
+O PATRRÃOOO FICOU MALUCO!!!
+SERVIÇO DE MAILER SÓ 9,90
+
 Este serviço é referente ao serviço de Emails.
 Para poder utilizá-lo, certifique de que você possui o [Docker](https://www.docker.com/) e o 
 [Docker Compose](https://docs.docker.com/compose/) em sua máquina.
