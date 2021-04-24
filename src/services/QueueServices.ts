@@ -24,6 +24,7 @@ export default class QueueServices {
 	}
 
 	emailQueueProcess(): void {
+		console.log("TESTE MAILER");
 		this.queue.process(async (job) => {
 			console.log('>>>>> Process Job to Send EMAIL');
 			await this.mailerProvider
